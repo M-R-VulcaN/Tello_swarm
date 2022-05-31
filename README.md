@@ -11,8 +11,8 @@ The swarm achived by using wifi adapters that connect to each Drone`s network.
 - netifaces (pip install netifaces)
 
 ## Recommended wifi adapters
-- DLINK AC1200 [Driver for Ubuntu 20.04] (https://askubuntu.com/questions/1312297/usb-wifi-adapter-is-not-working-on-ubuntu-20-04-1-lts)
-- DLINK AC600 [Driver for Ubuntu 20.04] (https://askubuntu.com/questions/1162974/wireless-usb-adapter-0bdac811-realtek-semiconductor-corp)
+- DLINK AC1200 [Driver for Ubuntu 20.04](https://askubuntu.com/questions/1312297/usb-wifi-adapter-is-not-working-on-ubuntu-20-04-1-lts)
+- DLINK AC600 [Driver for Ubuntu 20.04](https://askubuntu.com/questions/1162974/wireless-usb-adapter-0bdac811-realtek-semiconductor-corp)
 
 ## Usage
   import tello
