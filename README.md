@@ -13,8 +13,11 @@ The swarm achived by using multiple wifi adapters in order to connect to each Dr
 ## Recommended wifi adapters
 - DLINK AC1200 [Driver for Ubuntu 20.04](https://askubuntu.com/questions/1312297/usb-wifi-adapter-is-not-working-on-ubuntu-20-04-1-lts)
 - DLINK AC600 [Driver for Ubuntu 20.04](https://askubuntu.com/questions/1162974/wireless-usb-adapter-0bdac811-realtek-semiconductor-corp)
-
+## Examples
+- [Show video stream](show-stream-swarm.py)
+- [Simple swarm that performs the same actions](examples/record-video.py)
+- [Advanced swarm that performs unique actions for each drone](examples/simple-swarm.py)
 ## Usage
--import tello
--import swarm
+- import tello
+- import swarm
   
