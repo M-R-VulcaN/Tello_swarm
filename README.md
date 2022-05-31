@@ -15,6 +15,6 @@ The swarm achived by using multiple wifi adapters in order to connect to each Dr
 - DLINK AC600 [Driver for Ubuntu 20.04](https://askubuntu.com/questions/1162974/wireless-usb-adapter-0bdac811-realtek-semiconductor-corp)
 
 ## Usage
-  -import tello
-  -import swarm
+-import tello
+-import swarm
   
