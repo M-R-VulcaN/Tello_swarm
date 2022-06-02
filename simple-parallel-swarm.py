@@ -22,7 +22,7 @@ def initializeSwarm():
     ])
 
     swarm.connect() # Enter the drones to SDK mode
-    swarm.streamoff()
+    swarm.streamoff() #disable the stream of camera
     return swarm
 
 
