@@ -11,19 +11,18 @@ from time import sleep
 def initializeSwarm():
     """
     This function initializes the tello swarm by giving the network interfaces to which the
-    Tello will be connected. Enters the drones to SDK mode and re-enable the stream of the drones.
+    Tello will be connected. Enters the drones to SDK mode and disables the stream of the drones.
     *Note*: in order to get the interfaces names you should run the command: ifconfig in your terminal.
     Look in Tello-WIKI to understand better!
     """
 
     swarm = TelloSwarm.fromInterfaces([
         'wlp3s0',
-        'wlxbc0f9a7bfc87'
+        'wlx386b1ce2083d'
     ])
 
     swarm.connect() # Enter the drones to SDK mode
     swarm.streamoff()
-    swarm.streamon()
     return swarm
 
 
