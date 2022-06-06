@@ -17,6 +17,9 @@ The swarm achived by using multiple wifi adapters in order to connect to each Dr
 - [Show video stream](show-stream-swarm.py)
 - [Simple swarm that performs the same actions](simple-parallel-swarm.py)
 - [Advanced swarm that performs unique actions for each drone](unique-parallel-swarm.py)
+## Notes
+- Tested with 3 Tellos (2 Tellos with camera and 1 without).
+- I was able to achieve only 2 tellos using their camera (with one computer).
 ## Usage
 - import tello
 - import swarm
